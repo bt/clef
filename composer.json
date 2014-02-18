@@ -1,5 +1,5 @@
 {
-    "name":"enygma/clef",
+    "name":"bertramtruong/clef",
     "type":"library",
     "description":"A client for the Clef 2FA service",
     "keywords":["clef","api","client"],
