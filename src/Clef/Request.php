@@ -191,6 +191,9 @@ class Request
      */
     public function getClient()
     {
+        if ($this->client === null) {
+            $this->client = new \Guzzle\Http\Client;
+        }
         return $this->client;
     }
 
